@@ -1,0 +1,96 @@
+.form {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.form input {
+  width: auto;
+  padding: 8px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(206, 205, 204);
+  box-shadow: none;
+}
+
+.form input:focus {
+  border: 2px solid rgb(70, 73, 35);
+  outline: none;
+}
+
+.form button {
+  padding: 6px;
+  width: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(206, 205, 204);
+  font-size: 20px;
+}
+
+.form button:hover {
+  background-color: rgb(70, 73, 35);
+  transition: 1s;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 5px;
+}
+
+/* .todo-list li {
+  display: flex;
+  padding: 5px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  text-align: center;
+  min-width: 300px;
+  justify-content: space-around;
+} */
+
+.check {
+  width: 18px;
+}
+
+.closeButton {
+  width: 30px;
+  border: none;
+  border-radius: 5px;
+  background: transparent;
+}
+
+.closeButton:hover {
+  background-color: rgb(70, 73, 35);
+  transition: 1s;
+}
+
+.checkedInput {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.none {
+  display: none;
+}
+
+.completed {
+  display: flex;
+  padding: 5px;
+  background-color: rgb(70, 73, 35);
+  border-radius: 10px;
+  text-align: center;
+  min-width: 300px;
+  justify-content: space-around;
+  color: white;
+}
+
+.incompleted {
+  display: flex;
+  padding: 5px;
+  background-color: rgb(206, 205, 204);
+  border-radius: 10px;
+  text-align: center;
+  min-width: 300px;
+  justify-content: space-around;
+}
