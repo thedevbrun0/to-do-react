@@ -42,7 +42,7 @@ const Input = () => {
   };
 
   const inputValue = (e) => {
-    setValueInput(e.target.value.trim());
+    setValueInput(e.target.value);
   };
 
   const deleteLi = (id) => {
