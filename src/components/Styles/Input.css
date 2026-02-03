@@ -81,8 +81,7 @@
   border-radius: 10px;
   text-align: center;
   min-width: 300px;
-  justify-content: space-around;
-  color: white;
+  justify-content: space-between color: white;
 }
 
 .incompleted {
@@ -92,5 +91,5 @@
   border-radius: 10px;
   text-align: center;
   min-width: 300px;
-  justify-content: space-around;
+  justify-content: space-betweens
 }
